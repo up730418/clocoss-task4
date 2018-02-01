@@ -1,3 +1,5 @@
+#!/bin/sh
+
 bucketName="up730418-bucket"
 namespaces="up730418s4"
 
