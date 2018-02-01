@@ -28,11 +28,17 @@ Once your in the edditor paste the following line at the bottom of the file:
 Open backup-script.sh and alter the variables:
 
 ` bucketName="[Your-Name-Here]"`
-
-`namespaces="[Your-Name-Here]"`
   
 Open cron-job.sh  and alter the variables:
 
 ` bucketName="[Your-Name-Here]"`
+
+## Changing the namespaces name
+
+Open backup-script.sh and alter the variables:
+
+`namespaces="[Your-Name-Here]"`
+  
+Open cron-job.sh  and alter the variables:
 
 `namespaces="[Your-Name-Here]"`
