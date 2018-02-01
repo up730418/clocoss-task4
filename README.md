@@ -1,6 +1,6 @@
 # clocoss-task4 Bucket Storage
 
-# Basic usage
+## Basic usage
 
 Ensure git is installed. Then:
 
@@ -21,3 +21,13 @@ once this is  completed type:
 If the edditor prompt appears pick one. 
 Once your in the edditor paste the following line at the bottom of the file:
 `0 * * * * sh /home/[Your-Username]/clocoss-task4/cron-job.sh`
+
+## Changing the bucket name
+
+Open backup-script.sh and alter the variables:
+` bucketName="[Your-Name-Here]"
+  namespaces="[Your-Name-Here]"`
+  
+Open cron-job.sh  and alter the variables:
+` bucketName="[Your-Name-Here]"
+  namespaces="[Your-Name-Here]"`
