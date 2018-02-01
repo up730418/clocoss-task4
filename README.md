@@ -19,7 +19,7 @@ once this is  completed type:
 `crontab -e`
 
 If the edditor prompt appears pick one. 
-Once your in the edditor paste the following line at the bottom of the file:
+Once you're in the edditor paste the following line at the bottom of the file:
 
 `0 * * * * sh /home/[Your-Username]/clocoss-task4/cron-job.sh`
 
